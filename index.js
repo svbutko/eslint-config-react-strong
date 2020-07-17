@@ -21,7 +21,10 @@ module.exports = {
 
         //import
         "import/no-default-export": "error",
-        "import/no-unassigned-import": "error",
+        "import/no-unassigned-import": [
+      "error",
+      { allow: ["**/*.css", "**/*.scss", "**/i18n/index"] },
+    ],
 
         //typescript-eslint
         "@typescript-eslint/array-type": "error",
