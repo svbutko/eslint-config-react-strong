@@ -27,6 +27,7 @@ module.exports = {
     ],
 
         //typescript-eslint
+        "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/await-thenable": "error",
         "@typescript-eslint/class-name-casing": "error",
