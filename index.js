@@ -45,10 +45,6 @@ module.exports = {
         "@typescript-eslint/prefer-for-of": "error",
         "@typescript-eslint/prefer-namespace-keyword": "error",
         "@typescript-eslint/promise-function-async": "error",
-        "@typescript-eslint/quotes": [
-            "error",
-            "double"
-        ],
         "@typescript-eslint/restrict-plus-operands": "off",
         "@typescript-eslint/semi": [
             "error",
