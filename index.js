@@ -1,11 +1,13 @@
+//https://areknawo.com/creating-the-perfect-eslint-config/
+
 module.exports = {
-    plugins: {
+    plugins: [
         "react",
         "react-native",
         "@typescript-eslint",
         "react-hooks",
         "import",
-    },
+    ],
     rules: {
         //react-native
         "react-native/no-unused-styles": "error",
