@@ -23,9 +23,13 @@ module.exports = {
 
         //import
         "import/no-default-export": "error",
-        "import/no-unassigned-import": "error",
+        "import/no-unassigned-import": [
+      "error",
+      { allow: ["**/*.css", "**/*.scss", "**/i18n/index"] },
+    ],
 
         //typescript-eslint
+        "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/await-thenable": "error",
         "@typescript-eslint/class-name-casing": "error",
@@ -44,10 +48,6 @@ module.exports = {
         "@typescript-eslint/prefer-for-of": "error",
         "@typescript-eslint/prefer-namespace-keyword": "error",
         "@typescript-eslint/promise-function-async": "error",
-        "@typescript-eslint/quotes": [
-            "error",
-            "double"
-        ],
         "@typescript-eslint/restrict-plus-operands": "off",
         "@typescript-eslint/semi": [
             "error",
