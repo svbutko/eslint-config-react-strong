@@ -7,13 +7,13 @@ ESLint strong (strict) config for React and React Native development.
 ### Installation
 
 ```bash
-$ yarn add -D eslint-config-react-strong
+$ yarn add -D eslint eslint-config-react-strong
 ```
 
 or
 
 ```bash
-$ npm install --save-dev eslint-config-react-strong
+$ npm install --save-dev eslint eslint-config-react-strong
 ```
 
 ### Usage
