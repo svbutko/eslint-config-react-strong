@@ -6,14 +6,34 @@ ESLint strong (strict) config for React and React Native development.
 
 ### Installation
 
-```bash
-$ yarn add -D eslint eslint-config-react-strong
+#### yarn
+
+```sh
+yarn add -D 
+  eslint \
+  eslint-config-react-strong \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  @typescript-eslint/eslint-plugin-tslint \
+  eslint-plugin-import \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks \
+  eslint-plugin-react-native
 ```
 
-or
+#### npm
 
-```bash
-$ npm install --save-dev eslint eslint-config-react-strong
+```sh
+npm install --save-dev
+  eslint \
+  eslint-config-react-strong \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  @typescript-eslint/eslint-plugin-tslint \
+  eslint-plugin-import \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks \
+  eslint-plugin-react-native
 ```
 
 ### Usage
