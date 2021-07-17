@@ -1,5 +1,3 @@
-//https://areknawo.com/creating-the-perfect-eslint-config/
-
 module.exports = {
     plugins: [
         "react",
@@ -24,9 +22,15 @@ module.exports = {
         //import
         "import/no-default-export": "error",
         "import/no-unassigned-import": [
-      "error",
-      { allow: ["**/*.css", "**/*.scss", "**/i18n/index"] },
-    ],
+            "error",
+            {
+                allow: [
+                    "**/*.css",
+                    "**/*.scss",
+                    "**/i18n/index",
+                ]
+            },
+        ],
 
         //typescript-eslint
         "@typescript-eslint/explicit-function-return-type": "off",
