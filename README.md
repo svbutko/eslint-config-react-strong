@@ -31,6 +31,11 @@ Add `"react-strong"` to the "extends" array in your `.eslintrc.*` file. Make sur
 }
 ```
 
+## Other configs
+
+- [Prettier](./configs/prettierrc.md)
+- [TSConfig](./configs/tsconfig.md)
+
 ## Plugins included in this project
 
 - [@typescript-eslint/eslint-plugin]
