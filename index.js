@@ -3,6 +3,7 @@ module.exports = {
         "react",
         "react-native",
         "@typescript-eslint",
+        "@typescript-eslint/tslint",
         "react-hooks",
         "import",
     ],
