@@ -3,7 +3,6 @@ module.exports = {
         "react",
         "react-native",
         "@typescript-eslint",
-        "@typescript-eslint/tslint",
         "react-hooks",
         "import",
     ],
@@ -127,65 +126,5 @@ module.exports = {
         "prefer-const": "error",
         "use-isnan": "error",
         "valid-typeof": "error",
-        "@typescript-eslint/tslint/config": [
-            "error",
-            {
-                "rules": {
-                    "import-spacing": true,
-                    "jsx-alignment": true,
-                    "jsx-boolean-value": true,
-                    "jsx-curly-spacing": [
-                        true,
-                        "never"
-                    ],
-                    "jsx-equals-spacing": [
-                        true,
-                        "never"
-                    ],
-                    "jsx-key": true,
-                    "jsx-no-bind": true,
-                    "jsx-no-lambda": true,
-                    "jsx-no-multiline-js": true,
-                    "jsx-no-string-ref": true,
-                    "jsx-self-close": true,
-                    "jsx-wrap-multiline": true,
-                    "match-default-export-name": true,
-                    "no-boolean-literal-compare": true,
-                    "no-inferred-empty-object-type": true,
-                    "no-mergeable-namespace": true,
-                    "no-unsafe-any": true,
-                    "no-unused-variable": [
-                        true,
-                        "react"
-                    ],
-                    "one-line": [
-                        true,
-                        "check-catch",
-                        "check-finally",
-                        "check-else",
-                        "check-open-brace",
-                        "check-whitespace"
-                    ],
-                    "strict-type-predicates": true,
-                    "typedef": [
-                        true,
-                        "call-signature",
-                        "arrow-call-signature",
-                        "parameter",
-                        "property-declaration"
-                    ],
-                    "whitespace": [
-                        true,
-                        "check-branch",
-                        "check-decl",
-                        "check-operator",
-                        "check-separator",
-                        "check-type",
-                        "check-typecast",
-                        "check-preblock"
-                    ]
-                }
-            }
-        ]
     }
 };
