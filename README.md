@@ -2,7 +2,7 @@
 
 ESLint strong (strict) config for React and React Native development.
 
-##Quick start
+## Quick start
 
 ### Installation
 
