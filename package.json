@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-strong",
-  "version": "0.15.0-alpha",
+  "version": "1.0.0",
   "description": "ESLint strong config for React and React Native development",
   "main": "index.js",
   "scripts": {
