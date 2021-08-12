@@ -45,9 +45,9 @@
     "verify"
   ],
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
     "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react-native": "^3.11.0"
