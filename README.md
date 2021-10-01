@@ -49,9 +49,11 @@ Add `"react-strong"` to the "extends" array in your `.eslintrc.*` file. Make sur
 - [eslint-plugin-react]
 - [eslint-plugin-react-hooks]
 - [eslint-plugin-react-native]
+- [eslint-plugin-jest]
 
 [@typescript-eslint/eslint-plugin]: https://github.com/typescript-eslint/typescript-eslint
 [eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
 [eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
 [eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
 [eslint-plugin-react-native]: https://github.com/Intellicode/eslint-plugin-react-native
+[eslint-plugin-jest]: https://github.com/jest-community/eslint-plugin-jest
