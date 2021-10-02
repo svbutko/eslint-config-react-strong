@@ -42,6 +42,7 @@ Add `"react-strong"` to the "extends" array in your `.eslintrc.*` file. Make sur
 - [TypeScript Config](./configs/tsconfig.md)
 - [Prettier](./configs/prettierrc.md)
 - [Detox](./configs/detox.md)
+- [Jest](./configs/jest.md)
 
 ## Plugins included in this project
 
