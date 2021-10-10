@@ -45,11 +45,11 @@
     "verify"
   ],
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.32.0",
-    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0 || ^8.0.0",
     "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jest": "^24.5.0",
-    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-jest": "^24.6.0",
+    "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react-native": "^3.11.0"
   }
