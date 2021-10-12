@@ -22,7 +22,7 @@ module.exports = {
         "jest/no-mocks-import": "error",
         "jest/no-standalone-expect": "error",
         "jest/no-test-return-statement": "error",
-        "jest/valid-describe": "error",
+        "jest/valid-describe-callback": "error",
         "jest/valid-title": "error",
         //react-native
         "react-native/no-unused-styles": "error",
