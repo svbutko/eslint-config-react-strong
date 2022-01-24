@@ -9,7 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "lib": ["es2017"],
+    "lib": ["es2020"],
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
