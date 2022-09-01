@@ -18,7 +18,6 @@ module.exports = {
         "jest/expect-expect": "error",
         "jest/no-conditional-expect": "error",
         "jest/no-export": "error",
-        "jest/no-jest-import": "warn",
         "jest/no-mocks-import": "error",
         "jest/no-standalone-expect": "error",
         "jest/no-test-return-statement": "error",
