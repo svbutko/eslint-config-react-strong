@@ -47,6 +47,7 @@ module.exports = {
                 ]
             },
         ],
+        "import/no-unused-modules": ["error", {"unusedExports": true}],
 
         //typescript-eslint
         "@typescript-eslint/strict-boolean-expressions": "off",
