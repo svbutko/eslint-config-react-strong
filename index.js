@@ -6,6 +6,7 @@ module.exports = {
         "react-hooks",
         "import",
         "jest",
+        "unused-imports"
     ],
     rules: {
         //jest
@@ -54,7 +55,6 @@ module.exports = {
         "max-classes-per-file": "off",
         "@typescript-eslint/unbound-method": "off",
         "@typescript-eslint/no-shadow": ["error"],
-
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/await-thenable": "error",
@@ -79,6 +79,15 @@ module.exports = {
         "@typescript-eslint/triple-slash-reference": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
         "@typescript-eslint/unified-signatures": "error",
+
+        //unused-imports
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": [
+            "warn",
+            {"vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_"}
+        ],
+
+        // eslint
         "camelcase": "error",
         "complexity": "error",
         "constructor-super": "error",
