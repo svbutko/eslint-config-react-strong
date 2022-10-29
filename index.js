@@ -153,5 +153,6 @@ module.exports = {
         "prefer-const": "error",
         "use-isnan": "error",
         "valid-typeof": "error",
+        "no-console": ["error", {allow: ["warn", "error"]}]
     }
 };
