@@ -1,4 +1,13 @@
 module.exports = {
+    env: {
+        es6: true,
+    },
+    parserOptions: {
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+        },
+    },
     plugins: [
         "react",
         "react-native",
@@ -8,6 +17,11 @@ module.exports = {
         "jest",
         "unused-imports"
     ],
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
     rules: {
         //jest
         "jest/no-disabled-tests": "error",
