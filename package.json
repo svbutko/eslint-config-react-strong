@@ -55,7 +55,7 @@
     "eslint-plugin-react": "^7.0.0",
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-react-native": "^4.0.0",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint-plugin-unused-imports": "^2.0.0 || ^3.0.0"
   },
   "engines": {
     "node": "^12.13.0 || ^14.15.0 || >=16.0.0"
