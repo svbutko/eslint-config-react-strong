@@ -1,4 +1,7 @@
 module.exports = {
+    extends: [
+        "plugin:import/typescript",
+    ],
     env: {
         es6: true,
     },
