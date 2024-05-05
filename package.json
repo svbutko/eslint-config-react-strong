@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-strong",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "ESLint strong config for React and React Native development",
   "main": "index.js",
   "scripts": {
@@ -46,7 +46,7 @@
     "style linter",
     "verify"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.8.0",
     "eslint-import-resolver-typescript": "^3.6.1",
