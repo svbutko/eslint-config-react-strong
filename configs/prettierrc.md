@@ -2,13 +2,20 @@
 
 ```json
 {
+  "arrowParens": "avoid",
   "bracketSpacing": false,
-  "trailingComma": "all",
-  "printWidth": 140,
-  "tabWidth": 2,
-  "singleQuote": false,
+  "embeddedLanguageFormatting": "auto",
   "jsxBracketSameLine": false,
-  "noSemi": true,
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
   "rcVerbose": true
 }
 ```
