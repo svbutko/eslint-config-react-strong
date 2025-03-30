@@ -4,7 +4,6 @@
 [![npm-downloads](https://img.shields.io/npm/dt/eslint-config-react-strong)](https://www.npmjs.com/package/eslint-config-react-strong)
 
 [![GitHub Followers](https://img.shields.io/github/followers/svbutko?label=Follow%20%40svbutko&style=social)](https://github.com/svbutko)
-[![Twitter Follow](https://img.shields.io/twitter/follow/svbutko?label=Follow%20%40svbutko&style=social)](https://twitter.com/svbutko)
 
 ESLint strong (strict) config for React and React Native development.
 
@@ -15,13 +14,13 @@ ESLint strong (strict) config for React and React Native development.
 #### yarn
 
 ```sh
-yarn add -D eslint@8.57.0 eslint-config-react-strong
+yarn add -D eslint eslint-config-react-strong
 ```
 
 #### npm
 
 ```sh
-npm install --save-dev eslint@8.57.0 eslint-config-react-strong
+npm install --save-dev eslint eslint-config-react-strong
 ```
 
 ### Usage
